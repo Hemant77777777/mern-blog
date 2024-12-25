@@ -100,7 +100,7 @@ export default function SignUp() {
             
           </form>
           <div className='flex gap-2 text-sm mt-5'>
-  <span>Have an account? if not then</span>
+  <span>Have an account? </span>
   <Link
     to='/sign-in'
     className='bg-gradient-to-r from-red-600 to-blue-900 text-white font-semibold rounded-full px-3 py-0.5 hover:scale-105 hover:shadow-lg transition-transform duration-300 focus:outline-none focus:ring-2 focus:ring-blue-400'
