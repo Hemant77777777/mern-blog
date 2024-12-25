@@ -21,7 +21,9 @@
   "homepage": "https://github.com/Hemant77777777/mern-blog#readme",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "mongoose": "^8.9.2",
     "nodemon": "^3.1.9"
   }
 }
