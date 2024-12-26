@@ -254,13 +254,20 @@ export default function DashProfile() {
         )}
       </form>
       <div className='text-red-500 flex justify-between mt-5'>
-        <span onClick={() => setShowModal(true)} className='cursor-pointer'>
-          Delete Account
-        </span>
-        <span onClick={handleSignout} className='cursor-pointer'>
-          Sign Out
-        </span>
-      </div>
+  <span
+    onClick={() => setShowModal(true)}
+    className='cursor-pointer px-4 py-2 rounded-full bg-gradient-to-r from-red-500 to-cyan-500 text-white hover:from-red-600 hover:to-pink-600 transition-all duration-300 shadow-md'
+  >
+    Delete Account
+  </span>
+  <span
+    onClick={handleSignout}
+    className='cursor-pointer px-4 py-2 rounded-full bg-gradient-to-r from-blue-500 to-pink-500 text-white hover:from-blue-600 hover:to-cyan-600 transition-all duration-300 shadow-md'
+  >
+    Sign Out
+  </span>
+</div>
+
       {updateUserSuccess && (
         <Alert color='success' className='mt-5'>
           {updateUserSuccess}
